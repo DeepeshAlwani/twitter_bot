@@ -22,8 +22,8 @@ A sophisticated Twitter bot that automatically discovers trending tech articles 
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/ai-twitter-bot.git
-cd ai-twitter-bot
+git clone https://github.com/DeepeshAlwani/twitter_bot.git
+cd twitter-bot
 ```
 
 ### 2. Install Dependencies

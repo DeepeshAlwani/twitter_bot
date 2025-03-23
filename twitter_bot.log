@@ -1,0 +1,405 @@
+2025-03-21 14:04:40,213 - INFO - Database setup complete
+2025-03-21 14:04:40,213 - INFO - Selected keyword: Tech
+2025-03-21 14:04:40,213 - INFO - Searching HackerNews: https://hn.algolia.com/api/v1/search?query=Tech&tags=story
+2025-03-21 14:04:52,215 - INFO - Found 20 HackerNews stories.
+2025-03-21 14:04:52,215 - INFO - Found article: Extremely disillusioned with technology. Please help
+2025-03-21 14:04:52,215 - INFO - Source URL: https://gist.github.com/mGBUfLn9/7cadffcf7c3c23b7376350165a67735f
+2025-03-21 14:04:52,215 - INFO - HackerNews discussion: https://news.ycombinator.com/item?id=23072333
+2025-03-21 14:05:34,209 - INFO - Generated tweet: "Did you know AI is now creating AI? A new study reveals a 'self-reinforcing cycle' where tech learns from itself, raising concerns about future autonomy & control. Read more: https://gist.github.com/mGBUfLn9/7cadffcf7c3c23b7376350165a67735f #TechEthics"
+2025-03-21 14:05:34,209 - INFO - Validated tweet: "New study reveals AI creating AI: a 'self-reinforcing cycle' that raises concerns about future autonomy & control. Read more: https://gist.github.com/mGBUfLn9/7cadffcf7c3c23b7376350165a67735f #TechEthics"
+2025-03-21 14:05:34,210 - ERROR - Error in main function: table tweets has no column named article_link
+2025-03-21 14:05:34,210 - ERROR - Traceback (most recent call last):
+  File "C:\Users\Deepesh Alwani\Desktop\twitter_bot\twitter_post.py", line 287, in main
+    tweet_id = save_tweet(keyword, article_title, article_link, validated_tweet, validated=1)
+  File "C:\Users\Deepesh Alwani\Desktop\twitter_bot\twitter_post.py", line 206, in save_tweet
+    cursor.execute(
+sqlite3.OperationalError: table tweets has no column named article_link
+
+2025-03-21 14:09:58,097 - INFO - Database setup complete
+2025-03-21 14:09:58,097 - INFO - Selected keyword: Finance
+2025-03-21 14:09:58,097 - INFO - Searching HackerNews: https://hn.algolia.com/api/v1/search?query=Finance&tags=story
+2025-03-21 14:10:10,046 - INFO - Found 20 HackerNews stories.
+2025-03-21 14:10:10,046 - INFO - Found article: Stanford CS007: Personal Finance For Engineers
+2025-03-21 14:10:10,058 - INFO - Source URL: https://cs007.blog/
+2025-03-21 14:10:10,058 - INFO - HackerNews discussion: https://news.ycombinator.com/item?id=15786703
+2025-03-21 14:10:27,079 - WARNING - Tweet too long (283 chars), truncating
+2025-03-21 14:10:42,581 - INFO - Generated tweet: "Engineers, master your finances! Did you know that a $10k salary difference can make all the difference in retirement savings? Learn how to optimize your financial future with Stanford CS007: Personal Finance For Engineers [https://cs007.blog/] #EngineeringFinance #PersonalFi...
+2025-03-21 14:10:42,581 - INFO - Validated tweet: "Boost your engineering career with financial savvy! Discover how optimizing your finances can impact retirement savings & more. Stanford CS007: Personal Finance For Engineers [https://cs007.blog/] #EngineeringFinance #PersonalFi"
+2025-03-21 14:10:42,582 - WARNING - Using old database schema (article_link column missing)
+2025-03-21 14:10:42,587 - INFO - Tweet saved to database with ID 4: "Boost your engineering career with financial savvy! Discover how optimizing your finances can impact retirement savings & more. Stanford CS007: Personal Finance For Engineers [https://cs007.blog/] #EngineeringFinance #PersonalFi"
+2025-03-21 18:37:07,154 - INFO - Database setup complete
+2025-03-21 18:37:07,154 - INFO - Selected keyword: Finance
+2025-03-21 18:37:07,154 - INFO - Searching HackerNews: https://hn.algolia.com/api/v1/search?query=Finance&tags=story
+2025-03-21 18:37:19,123 - INFO - Found 20 HackerNews stories.
+2025-03-21 18:37:19,123 - INFO - Found article: Stanford CS007: Personal Finance For Engineers
+2025-03-21 18:37:19,123 - INFO - Source URL: https://cs007.blog/
+2025-03-21 18:37:19,123 - INFO - HackerNews discussion: https://news.ycombinator.com/item?id=15786703
+2025-03-21 18:37:19,135 - INFO - Extracting content from: https://cs007.blog/
+2025-03-21 18:37:31,176 - INFO - Successfully extracted content (2003 chars)
+2025-03-21 18:38:56,097 - INFO - Generated article summary: 1092 chars
+2025-03-21 18:38:56,098 - INFO - Article content summarized for tweet generation
+2025-03-21 18:40:01,409 - INFO - Generated tweet: "Did you know engineers often face unique financial challenges like managing multiple income streams? Learn how to overcome these & more with Stanford CS007: Personal Finance For Engineers https://cs007.blog/ #PersonalFinance #EngineerFinancialLiteracy"
+2025-03-21 18:40:01,409 - INFO - Validated tweet: "Discover how Stanford CS007 helps engineers master personal finance & overcome unique challenges like managing multiple income streams https://cs007.blog/ #PersonalFinance #EngineerFinancialLiteracy"
+2025-03-21 18:40:01,411 - WARNING - Using old database schema (article_link column missing)
+2025-03-21 18:40:01,411 - INFO - Tweet saved to database with ID 3: "Discover how Stanford CS007 helps engineers master personal finance & overcome unique challenges like managing multiple income streams https://cs007.blog/ #PersonalFinance #EngineerFinancialLiteracy"
+2025-03-21 18:57:41,650 - INFO - Database setup complete
+2025-03-21 18:57:41,650 - INFO - Selected keyword: Climate Change
+2025-03-21 18:57:41,650 - INFO - Searching HackerNews: https://hn.algolia.com/api/v1/search?query=Climate Change&tags=story
+2025-03-21 18:57:53,563 - INFO - Found 20 HackerNews stories.
+2025-03-21 18:57:53,563 - INFO - Found article: Eat less meat: UN climate change report calls for change to human diet
+2025-03-21 18:57:53,563 - INFO - Source URL: https://www.nature.com/articles/d41586-019-02409-7
+2025-03-21 18:57:53,563 - INFO - HackerNews discussion: https://news.ycombinator.com/item?id=20652145
+2025-03-21 18:57:53,563 - INFO - Extracting content from: https://www.nature.com/articles/d41586-019-02409-7
+2025-03-21 18:57:56,168 - INFO - Successfully extracted content (3184 chars)
+2025-03-21 18:57:56,168 - INFO - Starting vector search to extract key points from article
+2025-03-21 18:57:56,168 - INFO - Split article into 14 chunks
+2025-03-21 18:59:09,723 - ERROR - Error extracting key points with vectors: Could not import faiss python package. Please install it with `pip install faiss-gpu` (for CUDA supported GPU) or `pip install faiss-cpu` (depending on Python version).
+2025-03-21 18:59:09,723 - WARNING - Failed to extract key points, will generate tweet based on title only
+2025-03-21 18:59:48,800 - INFO - Generated tweet: "New UN climate report says reducing meat consumption can reduce greenhouse gas emissions by up to 50%. Cutting back on beef, lamb & dairy could be a key to mitigating global warming. Read more: https://www.nature.com/articles/d41586-019-02409-7 #Sustainability #ClimateAction"
+2025-03-21 18:59:48,800 - INFO - Validated tweet: "New UN climate report: Reducing meat consumption can slash greenhouse gas emissions by up to 50%. Cutting beef, lamb & dairy could be key to mitigating global warming. https://www.nature.com/articles/d41586-019-02409-7 #Sustainability #ClimateAction"
+2025-03-21 18:59:48,800 - WARNING - Using old database schema (article_content column missing)
+2025-03-21 18:59:48,803 - ERROR - Error saving tweet: table tweets has no column named article_link
+2025-03-21 19:18:00,563 - INFO - Database setup complete with updated schema
+2025-03-21 19:18:00,563 - INFO - Selected keyword: AI
+2025-03-21 19:18:00,563 - INFO - Searching HackerNews: https://hn.algolia.com/api/v1/search?query=AI&tags=story
+2025-03-21 19:18:12,591 - INFO - Found 20 HackerNews stories.
+2025-03-21 19:18:12,591 - INFO - Found article: Gemini AI
+2025-03-21 19:18:12,591 - INFO - Source URL: https://deepmind.google/technologies/gemini/
+2025-03-21 19:18:12,594 - INFO - HackerNews discussion: https://news.ycombinator.com/item?id=38544729
+2025-03-21 19:18:12,594 - INFO - Extracting content from: https://deepmind.google/technologies/gemini/
+2025-03-21 19:18:14,039 - INFO - Successfully extracted content (4707 chars)
+2025-03-21 19:18:14,054 - INFO - Starting vector search to extract key points from article
+2025-03-21 19:18:14,054 - INFO - Split article into 20 chunks
+2025-03-21 19:19:48,964 - ERROR - Error extracting key points with vectors: Could not import faiss python package. Please install it with `pip install faiss-gpu` (for CUDA supported GPU) or `pip install faiss-cpu` (depending on Python version).
+2025-03-21 19:19:48,964 - WARNING - Failed to extract key points, will generate tweet based on title only
+2025-03-21 19:20:07,855 - WARNING - Tweet too long (282 chars), truncating
+2025-03-21 19:20:24,276 - INFO - Generated tweet: "Meet Gemini AI, Google's new conversational AI that can engage in complex discussions & learn from interactions. Did you know it was trained on 40G of user data? Learn more about this revolutionary tech: https://deepmind.google/technologies/gemini/ #AI #ConversationalIntellig...
+2025-03-21 19:20:24,277 - INFO - Validated tweet: "Meet Gemini AI, Google's conversational AI trained on 40G of user data & capable of complex discussions. Learn more: https://deepmind.google/technologies/gemini/ #AI #ConversationalIntellig..."
+2025-03-21 19:20:24,285 - INFO - Tweet saved to database with ID 1: "Meet Gemini AI, Google's conversational AI trained on 40G of user data & capable of complex discussions. Learn more: https://deepmind.google/technologies/gemini/ #AI #ConversationalIntellig..."
+2025-03-21 19:36:25,587 - INFO - Database setup complete with updated schema
+2025-03-21 19:36:25,587 - INFO - Selected keyword: Finance
+2025-03-21 19:36:25,588 - INFO - Searching HackerNews: https://hn.algolia.com/api/v1/search?query=Finance&tags=story
+2025-03-21 19:36:37,491 - INFO - Found 20 HackerNews stories.
+2025-03-21 19:36:37,491 - INFO - Found article: US government commits to publish publicly financed software under FOSS licenses
+2025-03-21 19:36:37,491 - INFO - Source URL: https://k7r.eu/us-government-commits-to-publish-publicly-financed-software-under-free-software-licenses/
+2025-03-21 19:36:37,491 - INFO - HackerNews discussion: https://news.ycombinator.com/item?id=11415747
+2025-03-21 19:36:37,500 - INFO - Extracting content from: https://k7r.eu/us-government-commits-to-publish-publicly-financed-software-under-free-software-licenses/
+2025-03-21 19:36:38,150 - INFO - Successfully extracted content (1937 chars)
+2025-03-21 19:36:38,150 - INFO - Starting vector search to extract key points from article
+2025-03-21 19:36:38,158 - INFO - Split article into 10 chunks
+2025-03-21 19:37:26,388 - ERROR - Error extracting key points with vectors: Could not import faiss python package. Please install it with `pip install faiss-gpu` (for CUDA supported GPU) or `pip install faiss-cpu` (depending on Python version).
+2025-03-21 19:37:26,388 - WARNING - Failed to extract key points, will generate tweet based on title only
+2025-03-21 19:38:07,361 - INFO - Final tweet length: 261 characters
+2025-03-21 19:38:07,361 - INFO - Generated tweet: "just read this: US gov's gonna make publicly funded software free & open source! what does this mean for innovation? #FOSS" https://k7r.eu/us-government-commits-to-publish-publicly-financed-software-under-free-software-licenses/
+2025-03-21 19:38:07,361 - INFO - Validated tweet: "just read that the US gov is making publicly funded software FREE & open source! what does this mean for innovation? sounds like a huge win for FOSS #FOSS https://k7r.eu/us-government-commits-to-publish-publicly-financed-software-under-free-software-licenses/"
+2025-03-21 19:38:07,368 - INFO - Tweet saved to database with ID 1: "just read that the US gov is making publicly funded software FREE & open source! what does this mean for innovation? sounds like a huge win for FOSS #FOSS https://k7r.eu/us-government-commits-to-publish-publicly-financed-software-under-free-software-licenses/"
+2025-03-21 19:52:25,908 - INFO - Database setup complete with updated schema
+2025-03-21 19:52:25,910 - INFO - Selected keyword: Space Exploration
+2025-03-21 19:52:25,910 - INFO - Searching HackerNews: https://hn.algolia.com/api/v1/search?query=Space Exploration&tags=story
+2025-03-21 19:52:37,590 - INFO - Found 20 HackerNews stories.
+2025-03-21 19:52:37,590 - INFO - Found article: NASA Announces Design for New Deep Space Exploration System
+2025-03-21 19:52:37,590 - INFO - Source URL: http://www.nasa.gov/exploration/systems/sls/sls1.html
+2025-03-21 19:52:37,590 - INFO - HackerNews discussion: https://news.ycombinator.com/item?id=2996559
+2025-03-21 19:52:37,590 - INFO - Extracting content from: http://www.nasa.gov/exploration/systems/sls/sls1.html
+2025-03-21 19:52:38,513 - ERROR - Failed to fetch article: Status code 404
+2025-03-21 19:52:38,513 - WARNING - Could not extract article content, will generate tweet based on title only
+2025-03-21 19:53:15,508 - INFO - Final tweet length: 199 characters
+2025-03-21 19:53:15,508 - INFO - Generated tweet: "Just read this about NASA's new deep space exploration system...can you imagine what secrets we'll uncover?! Link: [link to article] #SpaceExploration #AstroNews" http://www.nasa.gov/exploration/systems/sls/sls1.html
+2025-03-21 19:53:15,509 - INFO - Validated tweet: "Just read about NASA's new deep space exploration system... mind blown! Can't wait to see what secrets we uncover! http://www.nasa.gov/exploration/systems/sls/sls1.html #SpaceExploration #AstroNews"
+2025-03-21 19:53:15,515 - INFO - Tweet saved to database with ID 1: "Just read about NASA's new deep space exploration system... mind blown! Can't wait to see what secrets we uncover! http://www.nasa.gov/exploration/systems/sls/sls1.html #SpaceExploration #AstroNews"
+2025-03-21 19:53:15,834 - ERROR - Error posting to Twitter: 403 Forbidden
+453 - You currently have access to a subset of X API V2 endpoints and limited v1.1 endpoints (e.g. media post, oauth) only. If you need access to this endpoint, you may need a different access level. You can learn more here: https://developer.x.com/en/portal/product
+2025-03-21 20:07:37,120 - INFO - Database setup complete with updated schema
+2025-03-21 20:07:37,122 - INFO - Selected keyword: Space Exploration
+2025-03-21 20:07:37,122 - INFO - Searching HackerNews: https://hn.algolia.com/api/v1/search?query=Space Exploration&tags=story
+2025-03-21 20:07:48,773 - INFO - Found 20 HackerNews stories.
+2025-03-21 20:07:48,773 - INFO - Found article: How Isaac Asimov shaped robotics and space exploration and predicted the Internet
+2025-03-21 20:07:48,778 - INFO - Source URL: https://rossdawson.com/blog/best-futurists-ever-isaac-asimov-shaped-robotics-space-exploration-predicted-internet/
+2025-03-21 20:07:48,778 - INFO - HackerNews discussion: https://news.ycombinator.com/item?id=16390681
+2025-03-21 20:07:48,778 - INFO - Extracting content from: https://rossdawson.com/blog/best-futurists-ever-isaac-asimov-shaped-robotics-space-exploration-predicted-internet/
+2025-03-21 20:08:02,062 - INFO - Successfully extracted content (4102 chars)
+2025-03-21 20:08:02,062 - INFO - Starting vector search to extract key points from article
+2025-03-21 20:08:02,062 - INFO - Split article into 19 chunks
+2025-03-21 20:09:35,154 - ERROR - Error extracting key points with vectors: Could not import faiss python package. Please install it with `pip install faiss-gpu` (for CUDA supported GPU) or `pip install faiss-cpu` (depending on Python version).
+2025-03-21 20:09:35,154 - WARNING - Failed to extract key points, will generate tweet based on title only
+2025-03-21 20:10:22,879 - WARNING - Validated tweet still too long (299 chars), trying emergency shortening
+2025-03-21 20:10:40,405 - INFO - Final tweet length: 240 characters
+2025-03-21 20:10:40,405 - INFO - Generated tweet: "Just read this fascinating article about Isaac Asimov's predictions on robotics, space exploration & the internet! Did you know he even envisioned a 'robot tax' to prevent robots from taking human jobs? Mind. Blown. Read more: [link] #AIHistory #ScienceFiction" https://rossdawson.com/blog/best-futurists-ever-isaac-asimov-shaped-robotics-space-exploration-predicted-internet/
+2025-03-21 20:10:40,405 - INFO - Validated tweet: "Meet Isaac Asimov, robotics pioneer & space visionary who predicted the Internet! Read how he shaped AI & beyond https://rossdawson.com/blog/best-futurists-ever-isaac-asimov-shaped-robotics-space-exploration-predicted-internet/ #AIHistory"
+2025-03-21 20:10:40,415 - INFO - Tweet saved to database with ID 1: "Meet Isaac Asimov, robotics pioneer & space visionary who predicted the Internet! Read how he shaped AI & beyond https://rossdawson.com/blog/best-futurists-ever-isaac-asimov-shaped-robotics-space-exploration-predicted-internet/ #AIHistory"
+2025-03-21 20:10:40,822 - ERROR - Error posting to Twitter: 403 Forbidden
+Your client app is not configured with the appropriate oauth1 app permissions for this endpoint.
+2025-03-21 20:20:36,832 - INFO - Database setup complete with updated schema
+2025-03-21 20:20:36,832 - INFO - Selected keyword: Climate Change
+2025-03-21 20:20:36,832 - INFO - Searching HackerNews: https://hn.algolia.com/api/v1/search?query=Climate Change&tags=story
+2025-03-21 20:20:48,651 - INFO - Found 20 HackerNews stories.
+2025-03-21 20:20:48,651 - INFO - Found article: Massachusetts Sues Exxon over Climate Change, Accusing the Oil Giant of Fraud
+2025-03-21 20:20:48,651 - INFO - Source URL: https://insideclimatenews.org/news/24102019/massachusetts-sues-exxon-climate-change-investor-fraud-misleading-advertising-healey
+2025-03-21 20:20:48,651 - INFO - HackerNews discussion: https://news.ycombinator.com/item?id=21368828
+2025-03-21 20:20:48,662 - INFO - Extracting content from: https://insideclimatenews.org/news/24102019/massachusetts-sues-exxon-climate-change-investor-fraud-misleading-advertising-healey
+2025-03-21 20:20:50,779 - INFO - Successfully extracted content (10160 chars)
+2025-03-21 20:20:50,779 - INFO - Starting vector search to extract key points from article
+2025-03-21 20:20:50,798 - INFO - Split article into 48 chunks
+2025-03-21 20:24:28,654 - ERROR - Error extracting key points with vectors: Could not import faiss python package. Please install it with `pip install faiss-gpu` (for CUDA supported GPU) or `pip install faiss-cpu` (depending on Python version).
+2025-03-21 20:24:28,654 - WARNING - Failed to extract key points, will generate tweet based on title only
+2025-03-21 20:25:13,665 - WARNING - Validated tweet still too long (317 chars), trying emergency shortening
+2025-03-21 20:25:29,074 - INFO - Final tweet length: 210 characters
+2025-03-21 20:25:29,074 - INFO - Generated tweet: "just read this! Mass suing Exxon over climate change allegations of fraud? How does a company like this even get away with it? Read more: [link] #ClimateJustice #ExxonKnew" https://insideclimatenews.org/news/24102019/massachusetts-sues-exxon-climate-change-investor-fraud-misleading-advertising-healey
+2025-03-21 20:25:29,074 - INFO - Validated tweet: "BREAKING: Mass sues Exxon over climate change, alleging fraud & misleading ads. https://insideclimatenews.org/news/24102019/massachusetts-sues-exxon-climate-change-investor-fraud-misleading-advertising-healey"
+2025-03-21 20:25:29,082 - INFO - Tweet saved to database with ID 1: "BREAKING: Mass sues Exxon over climate change, alleging fraud & misleading ads. https://insideclimatenews.org/news/24102019/massachusetts-sues-exxon-climate-change-investor-fraud-misleading-advertising-healey"
+2025-03-21 20:25:29,421 - ERROR - Error posting to Twitter: 403 Forbidden
+Your client app is not configured with the appropriate oauth1 app permissions for this endpoint.
+2025-03-21 20:35:59,666 - INFO - Database setup complete with updated schema
+2025-03-21 20:35:59,667 - INFO - Selected keyword: AI
+2025-03-21 20:35:59,667 - INFO - Searching HackerNews: https://hn.algolia.com/api/v1/search?query=AI&tags=story
+2025-03-21 20:36:11,677 - INFO - Found 20 HackerNews stories.
+2025-03-21 20:36:11,677 - INFO - Found article: Bypassing airport security via SQL injection
+2025-03-21 20:36:11,681 - INFO - Source URL: https://ian.sh/tsa
+2025-03-21 20:36:11,681 - INFO - HackerNews discussion: https://news.ycombinator.com/item?id=41392128
+2025-03-21 20:36:11,683 - INFO - Extracting content from: https://ian.sh/tsa
+2025-03-21 20:36:22,985 - INFO - Successfully extracted content (6393 chars)
+2025-03-21 20:36:22,985 - INFO - Starting vector search to extract key points from article
+2025-03-21 20:36:22,990 - INFO - Split article into 31 chunks
+2025-03-21 20:38:49,504 - INFO - Loading faiss with AVX512 support.
+2025-03-21 20:38:49,504 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-03-21 20:38:49,504 - INFO - Loading faiss with AVX2 support.
+2025-03-21 20:38:49,521 - INFO - Successfully loaded faiss with AVX2 support.
+2025-03-21 20:38:49,537 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-03-21 20:39:03,923 - INFO - Extracted 2 key points using vector search
+2025-03-21 20:39:03,923 - INFO - Successfully extracted key points using vector search
+2025-03-21 20:39:59,613 - INFO - Final tweet length: 218 characters
+2025-03-21 20:39:59,613 - INFO - Generated tweet: "Whoa, just learned about a possible airport security flaw via SQL injection! If you can get your hands on an unenrolled KCM barcode, you might be able to enroll it yourself - how's that for convenience? https://bit.ly/3S9ZLQ6 #cybersecurity #airportsecurity" https://ian.sh/tsa
+2025-03-21 20:39:59,613 - INFO - Validated tweet: "Just found out about a possible airport security flaw via SQL injection! Apparently, you can enroll your KCM barcode yourself if you have one. Crazy convenience! https://bit.ly/3S9ZLQ6 #cybersecurity #airportsecurity"
+2025-03-21 20:39:59,622 - INFO - Tweet saved to database with ID 1: "Just found out about a possible airport security flaw via SQL injection! Apparently, you can enroll your KCM barcode yourself if you have one. Crazy convenience! https://bit.ly/3S9ZLQ6 #cybersecurity #airportsecurity"
+2025-03-21 20:40:00,129 - INFO - Tweet posted successfully! ID: 1, Twitter ID: 1903101791081750962
+2025-03-21 20:45:17,254 - INFO - Database setup complete with updated schema
+2025-03-21 20:45:17,254 - INFO - Selected keyword: AI
+2025-03-21 20:45:17,254 - INFO - Searching HackerNews: https://hn.algolia.com/api/v1/search?query=AI&tags=story
+2025-03-21 20:45:30,175 - INFO - Found 20 HackerNews stories.
+2025-03-21 20:45:30,175 - INFO - Found article: Airfoil
+2025-03-21 20:45:30,175 - INFO - Source URL: https://ciechanow.ski/airfoil/
+2025-03-21 20:45:30,175 - INFO - HackerNews discussion: https://news.ycombinator.com/item?id=39526057
+2025-03-21 20:45:30,175 - INFO - Extracting content from: https://ciechanow.ski/airfoil/
+2025-03-21 20:45:31,473 - INFO - Successfully extracted content (84130 chars)
+2025-03-21 20:45:31,474 - INFO - Starting vector search to extract key points from article
+2025-03-21 20:45:31,474 - INFO - Split article into 397 chunks
+2025-03-21 21:16:21,891 - INFO - Loading faiss with AVX512 support.
+2025-03-21 21:16:21,891 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-03-21 21:16:21,891 - INFO - Loading faiss with AVX2 support.
+2025-03-21 21:16:21,970 - INFO - Successfully loaded faiss with AVX2 support.
+2025-03-21 21:16:21,985 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-03-21 21:16:36,416 - INFO - Extracted 3 key points using vector search
+2025-03-21 21:16:36,416 - INFO - Successfully extracted key points using vector search
+2025-03-21 21:17:27,223 - INFO - Final tweet length: 201 characters
+2025-03-21 21:17:28,164 - INFO - Tweet posted successfully! ID: 1, Twitter ID: 1903111219734778135
+2025-03-23 14:19:02,225 - INFO - Database setup complete with updated schema
+2025-03-23 14:19:02,226 - INFO - Selected keyword: Space Exploration
+2025-03-23 14:19:02,226 - INFO - Searching HackerNews: https://hn.algolia.com/api/v1/search?query=Space Exploration&tags=story
+2025-03-23 14:19:03,767 - INFO - Found 20 HackerNews stories.
+2025-03-23 14:19:03,770 - INFO - Found article: NASA Announces Design for New Deep Space Exploration System
+2025-03-23 14:19:03,771 - INFO - Source URL: http://www.nasa.gov/exploration/systems/sls/sls1.html
+2025-03-23 14:19:03,772 - INFO - HackerNews discussion: https://news.ycombinator.com/item?id=2996559
+2025-03-23 14:19:03,773 - INFO - Extracting content from: http://www.nasa.gov/exploration/systems/sls/sls1.html
+2025-03-23 14:19:05,496 - ERROR - Failed to fetch article: Status code 404
+2025-03-23 14:19:05,498 - WARNING - Could not extract article content, will generate tweet based on title only
+2025-03-23 14:20:00,035 - INFO - Final tweet length: 191 characters
+2025-03-23 14:20:00,858 - INFO - Tweet posted successfully! ID: 1, Twitter ID: 1903730936556269929
+2025-03-23 14:47:01,590 - INFO - Database setup complete with updated schema
+2025-03-23 14:47:01,591 - INFO - Selected keyword: Space Exploration
+2025-03-23 14:47:01,591 - INFO - Searching HackerNews: https://hn.algolia.com/api/v1/search?query=Space Exploration&tags=story
+2025-03-23 14:47:02,287 - INFO - Found 20 HackerNews stories.
+2025-03-23 14:47:02,288 - INFO - Found article: Naev – open-source game about space exploration, trade and combat
+2025-03-23 14:47:02,288 - INFO - Source URL: https://naev.org/
+2025-03-23 14:47:02,288 - INFO - HackerNews discussion: https://news.ycombinator.com/item?id=38418262
+2025-03-23 14:47:02,289 - INFO - Extracting content from: https://naev.org/
+2025-03-23 14:47:02,935 - INFO - Successfully extracted content (1219 chars)
+2025-03-23 14:47:02,936 - INFO - Starting vector search to extract key points from article
+2025-03-23 14:47:03,348 - INFO - Split article into 6 chunks
+2025-03-23 14:47:25,255 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-03-23 14:47:25,276 - INFO - Loading faiss with AVX512 support.
+2025-03-23 14:47:25,277 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-03-23 14:47:25,277 - INFO - Loading faiss with AVX2 support.
+2025-03-23 14:47:25,411 - INFO - Successfully loaded faiss with AVX2 support.
+2025-03-23 14:47:25,433 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-03-23 14:47:27,176 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-03-23 14:47:28,201 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-03-23 14:47:28,900 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-03-23 14:47:29,541 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-03-23 14:47:30,386 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-03-23 14:47:30,389 - INFO - Extracted 2 key points using vector search
+2025-03-23 14:47:30,392 - INFO - Successfully extracted key points using vector search
+2025-03-23 14:47:48,712 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-03-23 14:48:13,255 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-03-23 14:48:20,311 - INFO - Final tweet length: 213 characters
+2025-03-23 14:48:20,316 - INFO - Generated tweet: "Whoa, just learned about Naev - an open-source game where YOU can shape its future! 🚀💻 Can you imagine contributing to a whole galaxy of gameplay? 🤔 Check it out: https://www.naevonline.com/ #OpenSourceGaming #SpaceExploration 👽" https://naev.org/
+2025-03-23 14:48:20,317 - INFO - Validated tweet: "Just discovered Naev - an awesome open-source game where YOU can help shape its future! Explore space, trade & fight. Check out how you can contribute: https://naevonline.com/ #OpenSourceGaming #SpaceExploration"
+2025-03-23 14:48:20,326 - INFO - Tweet saved to database with ID 1: "Just discovered Naev - an awesome open-source game where YOU can help shape its future! Explore space, trade & fight. Check out how you can contribute: https://naevonline.com/ #OpenSourceGaming #SpaceExploration"
+2025-03-23 14:48:21,121 - INFO - Tweet posted successfully! ID: 1, Twitter URL: https://twitter.com/user/status/1903738067351113886
+2025-03-23 14:50:58,227 - INFO - Database setup complete with updated schema
+2025-03-23 14:50:58,229 - INFO - Selected keyword: Finance
+2025-03-23 14:50:58,230 - INFO - Searching HackerNews: https://hn.algolia.com/api/v1/search?query=Finance&tags=story
+2025-03-23 14:50:59,123 - INFO - Found 20 HackerNews stories.
+2025-03-23 14:50:59,123 - INFO - Found article: Show HN: Paisa – Open-Source Personal Finance Manager
+2025-03-23 14:50:59,124 - INFO - Source URL: https://paisa.fyi/
+2025-03-23 14:50:59,124 - INFO - HackerNews discussion: https://news.ycombinator.com/item?id=37613054
+2025-03-23 14:50:59,125 - INFO - Extracting content from: https://paisa.fyi/
+2025-03-23 14:50:59,910 - INFO - Successfully extracted content (2541 chars)
+2025-03-23 14:50:59,911 - INFO - Starting vector search to extract key points from article
+2025-03-23 14:51:00,318 - INFO - Split article into 10 chunks
+2025-03-23 14:51:29,335 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-03-23 14:51:29,361 - INFO - Loading faiss with AVX512 support.
+2025-03-23 14:51:29,362 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-03-23 14:51:29,362 - INFO - Loading faiss with AVX2 support.
+2025-03-23 14:51:29,405 - INFO - Successfully loaded faiss with AVX2 support.
+2025-03-23 14:51:29,421 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-03-23 14:51:30,784 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-03-23 14:51:31,515 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-03-23 14:51:32,135 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-03-23 14:51:32,799 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-03-23 14:51:33,602 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-03-23 14:51:33,605 - INFO - Extracted 2 key points using vector search
+2025-03-23 14:51:33,607 - INFO - Successfully extracted key points using vector search
+2025-03-23 14:51:55,498 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-03-23 14:52:19,902 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-03-23 14:52:26,535 - INFO - Final tweet length: 196 characters
+2025-03-23 14:52:26,538 - INFO - Generated tweet: "Wow! Just discovered Paisa, an open-source personal finance manager that lets you track expenses at ANY granularity 🤑💸. Can anyone else use this feature and share their experience? https://example.com/paisa" #personalfinance #opensourcedev https://paisa.fyi/
+2025-03-23 14:52:26,538 - INFO - Validated tweet: "Found Paisa, an awesome open-source personal finance manager that lets you track expenses at ANY granularity! Can anyone else use this feature? https://paisa.fyi/ #personalfinance #opensourcedev"
+2025-03-23 14:52:26,549 - INFO - Tweet saved to database with ID 1: "Found Paisa, an awesome open-source personal finance manager that lets you track expenses at ANY granularity! Can anyone else use this feature? https://paisa.fyi/ #personalfinance #opensourcedev"
+2025-03-23 14:52:27,300 - INFO - Tweet posted successfully! ID: 1, Twitter URL: https://twitter.com/user/status/1903739100110446937
+2025-03-23 14:54:49,335 - INFO - Database setup complete with updated schema
+2025-03-23 14:54:49,335 - INFO - Selected keyword: Finance
+2025-03-23 14:54:49,336 - INFO - Searching HackerNews: https://hn.algolia.com/api/v1/search?query=Finance&tags=story
+2025-03-23 14:54:50,893 - INFO - Found 20 HackerNews stories.
+2025-03-23 14:54:50,894 - INFO - Found article: Stanford CS007: Personal Finance For Engineers
+2025-03-23 14:54:50,894 - INFO - Source URL: https://cs007.blog/
+2025-03-23 14:54:50,894 - INFO - HackerNews discussion: https://news.ycombinator.com/item?id=15786703
+2025-03-23 14:54:50,895 - INFO - Extracting content from: https://cs007.blog/
+2025-03-23 14:54:52,207 - INFO - Successfully extracted content (3440 chars)
+2025-03-23 14:54:52,207 - INFO - Starting vector search to extract key points from article
+2025-03-23 14:54:52,764 - INFO - Split article into 14 chunks
+2025-03-23 14:55:58,096 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-03-23 14:55:58,120 - INFO - Loading faiss with AVX512 support.
+2025-03-23 14:55:58,120 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-03-23 14:55:58,121 - INFO - Loading faiss with AVX2 support.
+2025-03-23 14:55:58,154 - INFO - Successfully loaded faiss with AVX2 support.
+2025-03-23 14:55:58,167 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-03-23 14:55:59,889 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-03-23 14:56:00,933 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-03-23 14:56:01,625 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-03-23 14:56:02,286 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-03-23 14:56:03,134 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-03-23 14:56:03,137 - INFO - Extracted 3 key points using vector search
+2025-03-23 14:56:03,140 - INFO - Successfully extracted key points using vector search
+2025-03-23 14:56:35,029 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-03-23 14:57:22,270 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-03-23 14:57:28,939 - INFO - Final tweet length: 193 characters
+2025-03-23 14:57:28,941 - INFO - Generated tweet: "Wow! Did you know renting vs buying can save you thousands in property taxes? 🤯💸 I'm definitely thinking differently about my own finances now. Read more about it: [link] #personalfinance #engineeringlife" https://cs007.blog/
+2025-03-23 14:57:28,942 - INFO - Validated tweet: "Renting vs buying? I just learned about how much you can save on property taxes by renting! Mind. Blown. Check out this article for more: https://cs007.blog/ #personalfinance #engineeringlife"
+2025-03-23 14:57:28,950 - INFO - Tweet saved to database with ID 1: "Renting vs buying? I just learned about how much you can save on property taxes by renting! Mind. Blown. Check out this article for more: https://cs007.blog/ #personalfinance #engineeringlife"
+2025-03-23 14:57:29,677 - INFO - Tweet posted successfully! ID: 1, Twitter URL: https://twitter.com/user/status/1903740368522522769
+2025-03-23 15:00:40,407 - INFO - Database setup complete with updated schema
+2025-03-23 15:00:40,407 - INFO - Selected keyword: Space Exploration
+2025-03-23 15:00:40,409 - INFO - Searching HackerNews: https://hn.algolia.com/api/v1/search?query=Space Exploration&tags=story
+2025-03-23 15:00:41,326 - INFO - Found 20 HackerNews stories.
+2025-03-23 15:00:41,326 - INFO - Found article: How Isaac Asimov shaped robotics and space exploration and predicted the Internet
+2025-03-23 15:00:41,326 - INFO - Source URL: https://rossdawson.com/blog/best-futurists-ever-isaac-asimov-shaped-robotics-space-exploration-predicted-internet/
+2025-03-23 15:00:41,327 - INFO - HackerNews discussion: https://news.ycombinator.com/item?id=16390681
+2025-03-23 15:00:41,327 - INFO - Extracting content from: https://rossdawson.com/blog/best-futurists-ever-isaac-asimov-shaped-robotics-space-exploration-predicted-internet/
+2025-03-23 15:00:43,721 - INFO - Successfully extracted content (4102 chars)
+2025-03-23 15:00:43,722 - INFO - Starting vector search to extract key points from article
+2025-03-23 15:00:44,118 - INFO - Split article into 19 chunks
+2025-03-23 15:01:38,069 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-03-23 15:01:38,112 - INFO - Loading faiss with AVX512 support.
+2025-03-23 15:01:38,113 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-03-23 15:01:38,113 - INFO - Loading faiss with AVX2 support.
+2025-03-23 15:01:38,154 - INFO - Successfully loaded faiss with AVX2 support.
+2025-03-23 15:01:38,173 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-03-23 15:01:39,864 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-03-23 15:01:40,732 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-03-23 15:01:41,467 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-03-23 15:01:42,211 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-03-23 15:01:43,118 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-03-23 15:01:43,121 - INFO - Extracted 2 key points using vector search
+2025-03-23 15:01:43,124 - INFO - Successfully extracted key points using vector search
+2025-03-23 15:02:03,733 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-03-23 15:02:11,739 - ERROR - Error validating tweet: '<' not supported between instances of 'str' and 'int'
+2025-03-23 15:02:11,744 - INFO - Generated tweet: "Who knew @IsaacAsimov's sci-fi work could predict the internet?! Mind blown! 🤖💻 What other seemingly futuristic ideas has he got hidden up his sleeve? Read more: [link] #Robotics #ScienceFiction" https://rossdawson.com/blog/best-futurists-ever-isaac-asimov-shaped-robotics-space-exploration-predicted-internet/
+2025-03-23 15:02:11,745 - INFO - Validated tweet: "Who knew @IsaacAsimov's sci-fi work could predict the internet?! Mind blown! 🤖💻 What other seemingly futuristic ideas has he got hidden up his sleeve? Read more: [link] #Robotics #ScienceFiction"... https://rossdawson.com/blog/best-futurists-ever-isaac-asimov-shaped-robotics-space-exploration-predicted-internet/
+2025-03-23 15:02:11,757 - INFO - Tweet saved to database with ID 1: "Who knew @IsaacAsimov's sci-fi work could predict the internet?! Mind blown! 🤖💻 What other seemingly futuristic ideas has he got hidden up his sleeve? Read more: [link] #Robotics #ScienceFiction"... https://rossdawson.com/blog/best-futurists-ever-isaac-asimov-shaped-robotics-space-exploration-predicted-internet/
+2025-03-23 15:02:12,431 - INFO - Tweet posted successfully! ID: 1, Twitter URL: https://twitter.com/user/status/1903741554604580935
+2025-03-23 15:09:47,566 - INFO - Database setup complete with updated schema
+2025-03-23 15:09:47,567 - INFO - Scheduler started - will post tweets every 30 minutes
+2025-03-23 15:09:47,567 - INFO - Starting scheduled tweet job
+2025-03-23 15:09:47,567 - INFO - Selected keyword: AI
+2025-03-23 15:09:47,569 - INFO - Searching HackerNews: https://hn.algolia.com/api/v1/search?query=AI&tags=story
+2025-03-23 15:09:48,600 - INFO - Found 20 HackerNews stories.
+2025-03-23 15:09:48,600 - INFO - Found article: Open source AI is the path forward
+2025-03-23 15:09:48,601 - INFO - Source URL: https://about.fb.com/news/2024/07/open-source-ai-is-the-path-forward/
+2025-03-23 15:09:48,601 - INFO - HackerNews discussion: https://news.ycombinator.com/item?id=41046773
+2025-03-23 15:09:48,602 - INFO - Extracting content from: https://about.fb.com/news/2024/07/open-source-ai-is-the-path-forward/
+2025-03-23 15:09:49,464 - INFO - Successfully extracted content (11676 chars)
+2025-03-23 15:09:49,465 - INFO - Starting vector search to extract key points from article
+2025-03-23 15:09:50,175 - INFO - Split article into 55 chunks
+2025-03-23 15:12:09,396 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-03-23 15:12:09,488 - INFO - Loading faiss with AVX512 support.
+2025-03-23 15:12:09,488 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-03-23 15:12:09,489 - INFO - Loading faiss with AVX2 support.
+2025-03-23 15:12:09,528 - INFO - Successfully loaded faiss with AVX2 support.
+2025-03-23 15:12:09,545 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-03-23 15:12:10,711 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-03-23 15:12:11,523 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-03-23 15:12:12,218 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-03-23 15:12:12,914 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-03-23 15:12:13,755 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-03-23 15:12:13,758 - INFO - Extracted 3 key points using vector search
+2025-03-23 15:12:13,761 - INFO - Successfully extracted key points using vector search
+2025-03-23 15:12:37,094 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-03-23 15:12:45,980 - WARNING - Tweet too long (287 chars), trying emergency shortening
+2025-03-23 15:12:50,709 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-03-23 15:12:55,844 - INFO - Final tweet length: 187 characters
+2025-03-23 15:12:55,846 - INFO - Generated tweet: "Wow, this is fascinating! Open source AI could democratize access & power, ensuring no one's left behind. What if everyone in the world had a say in the future of AI? 🤖💻 Read more: [link] #OpenSourceAI #FutureOfTech" https://about.fb.com/news/2024/07/open-source-ai-is-the-path-forward/
+2025-03-23 15:12:55,847 - INFO - Validated tweet: "Unlocking AI's full potential through open source collaboration. Join the movement towards a more equitable future: https://about.fb.com/news/2024/07/open-source-ai-is-the-path-forward/"
+2025-03-23 15:12:55,855 - INFO - Tweet saved to database with ID 2: "Unlocking AI's full potential through open source collaboration. Join the movement towards a more equitable future: https://about.fb.com/news/2024/07/open-source-ai-is-the-path-forward/"
+2025-03-23 15:12:56,493 - INFO - Tweet posted successfully! ID: 2, Twitter URL: https://twitter.com/user/status/1903744256193499289
+2025-03-23 15:27:56,564 - INFO - Database setup complete with updated schema
+2025-03-23 15:27:56,565 - INFO - Scheduler started - will post tweets every 30 minutes
+2025-03-23 15:27:56,565 - INFO - Starting scheduled tweet job
+2025-03-23 15:27:56,565 - INFO - Selected keyword: Tech
+2025-03-23 15:27:56,565 - INFO - Searching HackerNews: https://hn.algolia.com/api/v1/search?query=Tech&tags=story
+2025-03-23 15:27:57,619 - INFO - Found 20 HackerNews stories.
+2025-03-23 15:27:57,620 - INFO - Found article: The boring technology behind a one-person Internet company (2018)
+2025-03-23 15:27:57,620 - INFO - Source URL: https://broadcast.listennotes.com/the-boring-technology-behind-listen-notes-56697c2e347b
+2025-03-23 15:27:57,621 - INFO - HackerNews discussion: https://news.ycombinator.com/item?id=20985875
+2025-03-23 15:27:57,622 - INFO - Extracting content from: https://broadcast.listennotes.com/the-boring-technology-behind-listen-notes-56697c2e347b
+2025-03-23 15:28:00,678 - INFO - Successfully extracted content (9305 chars)
+2025-03-23 15:28:00,678 - INFO - Starting vector search to extract key points from article
+2025-03-23 15:28:01,073 - INFO - Split article into 41 chunks
+2025-03-23 15:30:21,563 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-03-23 15:30:21,650 - INFO - Loading faiss with AVX512 support.
+2025-03-23 15:30:21,651 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-03-23 15:30:21,651 - INFO - Loading faiss with AVX2 support.
+2025-03-23 15:30:21,693 - INFO - Successfully loaded faiss with AVX2 support.
+2025-03-23 15:30:21,709 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-03-23 15:30:23,422 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-03-23 15:30:24,424 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-03-23 15:30:25,177 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-03-23 15:30:26,049 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-03-23 15:30:27,015 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-03-23 15:30:27,019 - INFO - Extracted 3 key points using vector search
+2025-03-23 15:30:27,021 - INFO - Successfully extracted key points using vector search
+2025-03-23 15:30:51,831 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-03-23 15:31:00,646 - WARNING - Tweet too long (353 chars), trying emergency shortening
+2025-03-23 15:31:06,391 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-03-23 15:31:12,429 - INFO - Final tweet length: 202 characters
+2025-03-23 15:31:12,430 - INFO - Generated tweet: "Wow! You don't need a huge team or fancy tech to build something meaningful 🤯. One person can make a difference with simple tools & services. Check out this inspiring story of how I built Listen Notes alone ⚡️ https://t.co/yourlink #entrepreneurship #solopreneur" https://broadcast.listennotes.com/the-boring-technology-behind-listen-notes-56697c2e347b
+2025-03-23 15:31:12,431 - INFO - Validated tweet: "Meet the unsung heroes behind ListenNotes, a one-person internet company that's been saving podcasts for years. https://broadcast.listennotes.com/the-boring-technology-behind-listen-notes-56697c2e347b"
+2025-03-23 15:31:12,436 - INFO - Tweet saved to database with ID 3: "Meet the unsung heroes behind ListenNotes, a one-person internet company that's been saving podcasts for years. https://broadcast.listennotes.com/the-boring-technology-behind-listen-notes-56697c2e347b"
+2025-03-23 15:31:13,010 - INFO - Tweet posted successfully! ID: 3, Twitter URL: https://twitter.com/DeepeshAlwani1/status/1903748855520489657
